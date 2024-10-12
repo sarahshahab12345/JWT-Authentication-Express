@@ -89,7 +89,7 @@ const register = async (req, res) => {
 //@access private
 const getCurrentUser = (req, res) => {
   res.status(200);
-  res.send("current");
+  res.json(req.user);
 };
 
 export { login, register, getCurrentUser };
