@@ -9,6 +9,11 @@ This project is an API built with Express.js that implements JWT (JSON Web Token
 - Created User Controller
 - Created User Register API
 - Added JSON Web Token (JWT) In Authentication
+- Added Error Handling Middleware
+- Added check Authentication Middleware
+- Protected Product routes 
+- get current user
+- Backend completed
 
 ## Getting Started
 
